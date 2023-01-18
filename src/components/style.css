@@ -1,0 +1,472 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500&display=swap);
+* {
+    
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.back{
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background: #e9ecef
+  
+}
+.line{
+  position: absolute;
+  top: 305px;
+    left: 69px;
+    font-size: 90px;
+    font-weight: bold;
+}
+body{
+  background: rgb(130, 106, 251);
+}
+.head {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 25px 26%;
+  background-color: #24252a;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+.cta {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.err{
+  color: red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.regform {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgb(130, 106, 251);
+
+}
+.logo{
+  position:absolute;
+  top: 20px;
+  left: 30px;
+
+}
+.container {  
+  /* position: relative; */
+  max-width: 550px !important;
+  min-width: 550px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  margin-top: -2vh;   
+  
+
+}
+
+
+#formhead {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+
+.container .form {
+  margin-top: 30px;
+}
+
+.form .form-data {
+  width: 100%;
+  margin-top: 20px;
+}
+.form :where(.form-data input,.address-data textarea,.select-data) {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.form-data input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+.form button {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: rgb(130, 106, 251);
+}
+.form button:hover{
+  background: rgb(86,56,250);
+}
+footer{
+ 
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+  
+  }
+  
+  .form .error {
+      color: red;
+      margin-bottom: 5px;
+  }
+
+ .form p{
+  color: red;
+  margin-top: 5px;
+ }
+ .logform p{
+  color: red;
+  margin-top: 5px;
+ }
+  p{
+  color: red;
+  margin-top: 5px;
+ }
+
+  .login{
+  max-width: 400px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(0 0 0 / 50%);
+  margin-top: -4vh;
+  }
+  .loginForm .form-data{
+    width: 100%;
+  margin-top: 20px
+  }
+  .loginForm :where(.form-data input) {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+.loginFormDiv {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgb(130, 106, 251);
+}
+
+.loginForm button {
+height: 55px;
+width: 100%;
+color: #fff;
+font-size: 1rem;
+font-weight: 400;
+margin-top: 10px;
+border: none;
+cursor: pointer;
+transition: all 0.2s ease;
+background: rgb(130, 106, 251);
+}
+.loginForm button:hover{
+background: rgb(86,56,250);
+}
+.loginForm .error{
+color: red;
+}
+.alert{
+color: red;
+background-color: antiquewhite;
+padding: 15px;
+list-style-position: inside;
+}
+
+@media only screen and (max-width: 800px) {
+  .nav__links,
+  .cta {
+    display: none;
+  }
+  .menu {
+    display: initial;
+  }
+}
+* {
+    
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: rgb(130, 106, 251);
+}
+.head {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 25px 26%;
+  background-color: #24252a;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+.cta {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.err{
+  color: red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.regform {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgb(130, 106, 251);
+
+}
+.logo{
+  position:absolute;
+  top: 20px;
+  left: 30px;
+
+}
+.container {  
+  /* position: relative; */
+  max-width: 550px;
+  min-width: 550px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  margin-top: -2vh;   
+  
+
+}
+
+
+#formhead {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+
+.container .form {
+  margin-top: 30px;
+}
+
+.form .form-data {
+  width: 100%;
+  margin-top: 20px;
+}
+.form :where(.form-data input,.address-data textarea,.select-data) {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.form-data input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+.form button {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: rgb(130, 106, 251);
+}
+.form button:hover{
+  background: rgb(86,56,250);
+}
+
+
+ 
+
+  .login{
+  max-width: 400px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(0 0 0 / 50%);
+  margin-top: -4vh;
+  }
+  .loginForm .form-data{
+    width: 100%;
+  margin-top: 20px
+  }
+  .loginForm :where(.form-data input) {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+.loginFormDiv {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgb(130, 106, 251);
+}
+
+.loginForm button {
+height: 55px;
+width: 100%;
+color: #fff;
+font-size: 1rem;
+font-weight: 400;
+margin-top: 10px;
+border: none;
+cursor: pointer;
+transition: all 0.2s ease;
+background: rgb(130, 106, 251);
+}
+.loginForm button:hover{
+background: rgb(86,56,250);
+}
+.loginForm .error{
+color: red;
+}
+.alert{
+color: red;
+background-color: antiquewhite;
+padding: 15px;
+list-style-position: inside;
+}
+
+@media only screen and (max-width: 800px) {
+  .nav__links,
+  .cta {
+    display: none;
+  }
+  .menu {
+    display: initial;
+  }
+}
