@@ -73,7 +73,9 @@ const Login = () => {
         const success = result.data.messages.success;
         if (success) {
             toast.success('Login Successfully');
-            console.log(result.data.messages.role);
+            const token=result.data.messages.jwt;
+            if(token)
+                localStorage.setItem("token",token);
             const session = {
                 id: result.data.messages.id,
                 role: result.data.messages.role
@@ -83,7 +85,7 @@ const Login = () => {
               
                 navigate('/admin');
             } else {
-                navigate('/user');
+                navigate('/userdash');
             }
 
         }

@@ -31,7 +31,7 @@ const Signup = () => {
     const navigate = useNavigate();
 
     const checkInput = (name: string, value: string) => {
-        if (name === "firstName") {
+        if (name === "firstName") { 
             if (value === "") {
                 setErr((prevState) => { return { ...prevState, [name]: "This is Required" } })
                 return false;
@@ -203,7 +203,7 @@ const Signup = () => {
     }
     return (
         <div className="regform">
-            <section className="container">
+            <section className="container-signup">
                 <header id="formhead">Registration Form</header>
 
                 <form name="LoginForm" className="form" id="form" onSubmit={handleSubmit} >

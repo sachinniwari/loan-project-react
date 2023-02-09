@@ -24,7 +24,11 @@ const Header = () => {
         </nav>
         {(path === "/" || path === "/signup") && <Link id="button" className="cta" to="/login">Login</Link>}
         {(path === "/" || path === "/login") && <Link id="button" className="cta" to="/signup">Signup</Link>}
-        {(path == "/admin" || path == "/user") && <Link id="button" onClick={logout} className="cta" to="/login">Logout</Link>}
+        {(path == "/admin" || path=="/userdash"|| path == "/user") && <Link id="button" onClick={logout} className="cta" to="/login">Logout</Link>}
+        {(path=="/userdash") && <Link id='button'className='cta' to='/user'>Apply Loan</Link>}
+        {path=="/user"  && <Link id='button'className='cta' to='/userdash'>Dashboard</Link>}
+        {(path=="/user" || path=="/userdash")&& <img className='avatar' src='/images/avatar.png' height="60px" />}
+        {(path=="/admin")&& <img className='avatar' src='/images/admin.png' height="60px" />}
       </header>
     </div>
   )
