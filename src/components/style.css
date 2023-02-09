@@ -12,6 +12,10 @@
   background: #e9ecef
   
 }
+
+#content{
+  width:20%;
+}
 .line{
   position: absolute;
   top: 305px;
@@ -100,7 +104,7 @@ body{
   left: 30px;
 
 }
-.container {  
+.container-signup {  
   /* position: relative; */
   max-width: 550px !important;
   min-width: 550px;
@@ -121,7 +125,7 @@ body{
   text-align: center;
 }
 
-.container .form {
+.container-signup .form {
   margin-top: 30px;
 }
 
@@ -183,6 +187,14 @@ footer{
   p{
   color: red;
   margin-top: 5px;
+ }
+
+ #filter{
+  height : 10%;
+ }
+
+ #mainsec{
+  width:100%;
  }
 
   .login{
@@ -340,7 +352,7 @@ body{
   left: 30px;
 
 }
-.container {  
+.container-signup {  
   /* position: relative; */
   max-width: 550px;
   min-width: 550px;
@@ -361,7 +373,7 @@ body{
   text-align: center;
 }
 
-.container .form {
+.container-signup .form {
   margin-top: 30px;
 }
 

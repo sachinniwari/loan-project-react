@@ -5,6 +5,7 @@ import Login from './Pages/Login';
 import Home from './Pages/Home';
 import Admin from './Pages/Admin';
 import User from './Pages/User';
+import UserDash from './Pages/UserDash';
 import SideBar from './Pages/SideBar';
 import './components/style.css'
 import AuthRoute from './components/AuthRoute';
@@ -26,6 +27,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<Signup />} />
+        <Route path="userdash" element={<UserDash />} />
         {/* <Route path="sidebar" element={<SideBar />} /> */}
 
         {/* <Route path="admin" element={<Admin/>} /> */}

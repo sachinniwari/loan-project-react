@@ -5,9 +5,10 @@ import axios from "axios";
 
 interface response {
   messages: {
-    success: string
+    success: string,
     role:string|null,
-    id:number|null
+    id:number|null,
+    jwt:string|null
   }
 }
 
