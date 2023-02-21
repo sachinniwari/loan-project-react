@@ -5,7 +5,6 @@ import { DataGrid, GridCellParams, GridColDef, GridRowId, GridToolbar, GridValue
 import Box from '@mui/material/Box';
 import FormHook from '../hooks/Formhook';
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import { changeRole, getAllUsers, User } from '../Services/AdminServices';
 import { margin } from '@mui/system';
 import { userDelete } from "../Services/delete";
 import { update } from "../Services/update";
